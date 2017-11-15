@@ -1,0 +1,115 @@
+
+
+\documentclass[serif]{beamer}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[cp1250]{inputenc}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{hyperref} 
+\usetheme{Warsaw}
+
+
+\date{}
+%opening
+\title{Prezentacja - LATEX}
+\author{Marek Pączkowski}
+\linespread{1.3}
+\begin{document}
+\section{}
+
+\begin{frame}
+	
+	\begin{center}
+	\titlepage
+	\end{center}
+
+\end{frame}
+
+\begin{frame}
+
+\textbf{ LaTeX} – oprogramowanie do zautomatyzowanego składu tekstu, a także związany z nim język znaczników, służący do formatowania dokumentów tekstowych i tekstowo-graficznych (na przykład: broszur, artykułów, książek, plakatów, prezentacji, a nawet stron HTML). Jego logo stylizowane jest z użyciem samego LaTeX -  {\displaystyle \mathrm {L\!\!^{{}_{\scriptstyle A}}\!\!\!\!\!\;\;T\!_{\displaystyle E}\!X} } 
+\end{frame}
+
+\begin{frame}
+
+
+
+
+
+\tableofcontents
+
+
+
+\end{frame}
+
+\begin{frame}
+ \section{Nazwa}
+\frametitle{NAZWA}
+Poprawna wymowa nazwy to latech lub ewentualnie lejtech (IPA: [ˈ$lat \epsilon x$], [ˈ$le \taut t \epsilon x$]). Zgermanizowana forma "lejtek" jest niepoprawna. Wymowa wynika ze źródłosłowu - ostatnia litera to greckie chi, jako że nazwa TeX wywodzi się z greckiego słowa $\tau\epsilon X \nu\eta$, oznaczającego umiejętność, sztukę, technikę.
+
+\end{frame}
+
+\begin{frame} \section{Zasada działania LaTeX-a}
+\frametitle{Zasada działania LaTeX-a}
+
+Tworzenie tekstu w LaTeX-u opiera się na zasadzie WYSIWYM (What You See Is What You Mean - To, co widzisz, jest tym, o czym myślisz). Od zasady WYSIWYG odróżnia go to, że autor tekstu określa jedynie logiczną strukturę dokumentu (tzn. zaznacza, gdzie zaczyna się rozdział, co jest przypisem itp.), natomiast samym graficznym "ułożeniem" tekstu na stronie zajmuje się TeX, zwalniając tym samym użytkownika z tego zadania. \\
+
+LaTeX zajmuje się również odpowiednim rozmieszczeniem i sformatowaniem wzorów matematycznych, rysunków i diagramów, zwalniając użytkownika ze żmudnej pracy związanej z integracją tych elementów z właściwym tekstem.\\
+
+
+
+
+\end{frame} 
+
+\begin{frame} \frametitle{Zasada działania LaTeX-a}
+\small
+W sposób automatyczny tworzone są:
+
+\begin{itemize}
+	\item spisy treści, ilustracji oraz tabel,
+\item numerowanie i referencje do rozdziałów i podrozdziałów,
+\item numerowanie i referencje elementów takich jak wzory i rysunki,
+\item skorowidze,
+\item bibliografia.
+\end{itemize}
+\footnotesize
+Dokument LaTeX-owy zawiera de facto kod źródłowy właściwego dokumentu, którego uzyskanie wymaga przeprowadzenia procesu kompilacji. W jej wyniku powstaje plik wynikowy w formacie DVI, specyficzny tylko dla środowiska TeX. Plik DVI można następnie przetworzyć na jeden z popularnych formatów, takich jak PostScript, PDF lub HTML.
+
+\end{frame}
+
+\begin{frame}
+\section{Obszar zastosoń}
+\frametitle{Obszar zastosowań}\footnotesize{
+LaTeX ułatwia skład tekstu pozwalając autorowi skupić się na treści i strukturze tekstu. Obecnie zwykle nie pisze się tekstu źródłowego w "czystym" TeX-u (plain TeX), używa się LaTeX-a wraz z dodatkowymi pakietami określanymi mianem klas. Klasy ułatwiają pracę nad wyspecjalizowanymi rodzajami dokumentów - na przykład publikacjami zawierającymi rozbudowane wzory matematyczne lub chemiczne. Ponadto, dla ułatwienia współpracy z autorami artykułów, czasopisma składane w LaTeX-u mogą dostarczać własne wyspecjalizowane klasy. Przykładem może być klasa \textcolor{red} {RevTeX} propagowana przez czasopisma naukowe z grupy Physical Review. Dzięki tej metodzie pracy ani autor artykułu, ani związany z wydawnictwem redaktor, nie muszą koncentrować się na szczegółach technicznych specyficznych dla danego czasopisma (np. formatowaniu danych bibliograficznych, tabel, podpisów pod rysunkami, standardach numerowania wzorów i nagłówków itp.).}
+\end{frame}
+\begin{frame}
+\frametitle{Obszar zastosowań}
+\footnotesize {
+Pisanie tekstu w LaTeX-u z punktu widzenia nowicjusza może wydawać się znacznie trudniejsze niż tworzenie analogicznych dokumentów w programach WYSIWYG, wymaga bowiem nauczenia się podstaw języka TEX i przyswojenia używanych komend. Z drugiej strony, po ich opanowaniu praca nad tekstem i jego składem staje się dzięki LaTeX-owi efektywniejsza[potrzebny przypis], szczególnie w przypadku tekstów naukowych lub technicznych zawierających duże ilości wzorów, tabel i rysunków. Język opisu równań matematycznych, zaczerpnięty z LaTeX-a, jest tak uniwersalny i wygodny w użyciu, że stosuje się go niejednokrotnie w programach i serwisach niezwiązanych w inny sposób z TeX-em. W szczególności, wzory matematyczne widoczne na stronach Wikipedii formatowane są z użyciem składni języka LaTeX.}
+
+Obecna wersja oprogramowania to {\displaystyle \mathrm {L\!\!^{{}_{\scriptstyle A}}\!\!\!\!\!\;\;T\!_{\displaystyle E}\!X} \,2_{\displaystyle \varepsilon }} {\mathrm  {L\!\!^{{{}_{{\scriptstyle A}}}}\!\!\!\!\!\;\;T\!_{{\displaystyle E}}\!X}}\,2_{{\displaystyle \varepsilon }} (LaTeX2ε, LaTeX2e).
+\end{frame}
+
+\begin{frame}
+\frametitle{Zobacz też}
+\section{Zobacz też}
+\textcolor{blue}{ \href{https://pl.wikipedia.org/wiki/TeX}{TeX} , \href{https://pl.wikipedia.org/wiki/BibTeX}{BibTeX} , \href{https://pl.wikipedia.org/wiki/ConTeXt}{ConTeXt} , \href{https://pl.wikipedia.org/wiki/XeTeX}{XeTeX} , \href{https://pl.wikipedia.org/wiki/Beamer_(LaTeX)} {Beamer} }
+
+
+
+
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Źródło}
+\section{Źródło}
+\colorbox{blue} {\href {https://pl.wikipedia.org/wiki/LaTeX} {źródło}}
+\end{frame}
+\end{document}
+
+
